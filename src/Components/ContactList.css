@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+
+body {
+	background:#b03f3f;
+}
+.container {
+	background:#fff;
+	height:450px;
+	width:400px;
+	margin:auto;
+	box-shadow: 10px 10px 5px #222;
+}
+.topimg {
+	height:40%;
+	width:80%;
+	margin:auto;
+    overflow:hidden;
+    padding: 0 25% 0 25%;
+}
+.topimg img {
+	position:relative;
+	max-width:100%;
+	max-height:100%;
+	-webkit-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out;
+}
+.container:hover .topimg img {
+	transform:scale(1.2);
+	-webkit-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out;
+}
+.info h2 {
+	font-family: 'Playfair Display', serif;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:5px;
+	font-size:2em;
+	margin-top:10px;
+}
+.info h3 {
+	color:#b03f3f;
+	text-align:center;
+	font-style:italic;
+	margin:0px;
+}
+.info p {
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:0.8em;
+	margin:5px;
+	color:grey;
+}
+hr {
+	width:70%;
+	background:#b03f3f;
+	height:1px;
+	margin-top:5%;
+}
+.social {
+	text-align:center;
+	margin-top:12%;
+}
+.social a {
+	text-decoration:none;
+}
+.social img {
+	height:35px;
+	margin:5px;
+	
+}
+.social img:hover {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+
+}
+
+.mail{
+margin-top:5%
+}
